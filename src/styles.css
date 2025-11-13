@@ -1,0 +1,44 @@
+:root {
+  --cell-size: 100px;
+}
+
+body {
+  padding: 2rem;
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  background-color: lightgreen;
+}
+
+img {
+  width: var(--cell-size);
+  height: var(--cell-size);
+}
+
+button {
+  margin-right: 8px;
+  margin-bottom: 16px;
+}
+
+.lane {
+  display: flex;
+  margin-bottom: 16px;
+}
+
+.cell {
+  width: var(--cell-size);
+  height: var(--cell-size);
+  display: flex;
+  flex: 0 0 var(--cell-size);
+  align-items: center;
+  justify-content: center;
+  background-color: tan;
+}
+
+.cell:last-of-type {
+  background: repeating-linear-gradient(45deg, black 0px 20px, white 20px 40px);
+}
+
+.winnerText {
+  font-size: 24px;
+  font-weight: bold;
+}
