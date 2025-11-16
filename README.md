@@ -1,8 +1,8 @@
 # Horse Race
 
-This is a simple horse race I made in TypeScript and React.
+This is a code demo I made of a simple horse race showcasing TypeScript and React.
 
-By default, all of the horses have a 0.6 chance to move forward at every interval. After each interval, every horse has it's chance to move changed by a value between -0.1 and 0.1. This chance is visualized for each lane. The race can be paused and resumed at any time. The race can also be reset at any time, returning all the horses to their staring places and parameters.
+By default, all of the horses have a 0.6 chance to move forward at every interval. After each interval, the state is updated to move a horse forward if that horse has a success. Each horse also has it's chance to move changed by a value randomly between -0.1 and 0.1. This chance is visualized for each lane throughout the race. The race can be paused and resumed at any time. The race can also be reset at any time, returning everything to the initial state.
 
 <img src='./demo.gif' alt='demo' height='400px' />
 
