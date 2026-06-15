@@ -12,8 +12,8 @@ By default, all of the horses have a 0.6 chance to move forward at every interva
 - Introduce "risky" and "safe" horses that have more and less volatile changes in their chance to move forward.
 - Add fanfare after the race finishes.
 
-## How to run
+## Live Demo
 
-In the project directory, run `npm install` then `npm run dev`.
+Visit the deployed app here:
 
-Open [http://localhost:5173](http://localhost:5173) to view it in your browser.
+https://horse-race-app-swart.vercel.app/
