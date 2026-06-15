@@ -1,4 +1,4 @@
-import React, { JSX, useEffect, useState } from 'react'
+import { type JSX, useEffect, useState } from 'react'
 import { Lane } from './Lane'
 
 const numLanes = 5

@@ -1,4 +1,3 @@
-import React from 'react'
 import { distance } from './App'
 import horse from './horse.png'
 
